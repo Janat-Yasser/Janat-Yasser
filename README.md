@@ -1,7 +1,5 @@
 # Hi, I'm Janat 
 
-I build full-stack web apps, developer tools and applied-ML projects. I like making complicated systems visible: robots, hearts, algorithms, networks, and whether an AI is telling the truth.
-
 ---
 
 ### ⭐ Featured
