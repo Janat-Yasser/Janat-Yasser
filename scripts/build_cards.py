@@ -101,7 +101,7 @@ def delay(s):
 def hero(t):
     c = Card(880, 320, t, "Janat Yasser. I build machine-learning systems, then check whether their numbers hold up on "
                           "data they've never seen. Figure: on HAM10000, a model validated on a leaky image-level split "
-                          "scored 0.858 on validation and 0.727 on the official test set; split by lesion, 0.790 and 0.744.")
+                          "scored 0.853 on validation and 0.716 on the official test set (mean of three seeds); split by lesion, 0.779 and 0.731.")
     c.frame()
     c.text(44, 60, "LAB NOTEBOOK", "Jb", 11, "faint", spacing=2.5, cls="fade")
     c.text(40, 128, "Janat Yasser", "Fr", 60, "ink", cls="rise", style=delay(0.1))
@@ -109,14 +109,14 @@ def hero(t):
     c.text(44, 193, "whether their numbers hold up on data they've never seen.", "In", 16, "muted", cls="rise", style=delay(0.45))
     c.add(f'<line x1="44" y1="226" x2="84" y2="226" stroke="{t["line"]}" stroke-width="2" class="fade" style="{delay(0.6)}"/>')
     for i, line in enumerate(["Fig. 1. HAM10000 skin lesions. With photos of the same mole on both sides",
-                              "of the split, validation flattered the model by 13 points. The official",
-                              "test set didn't. Split by lesion, the drop was under 5."]):
+                              "of the split, validation flattered the model by 13.7 points (3 seeds).",
+                              "The official test set didn't. Split by lesion, the drop was 4.8."]):
         c.text(44, 254 + i * 19, line, "In", 13, "faint", cls="fade", style=delay(2.6 + i * 0.1))
 
-    # Fig. 1: validation -> official test, both splits (single seed, from step4_evaluate.py)
+    # Fig. 1: validation -> official test, both splits (mean of 3 seeds, from step5_seeds.py)
     x0, x1, top, bot = 640, 790, 92, 262
     y = lambda v: bot - (v - 0.70) / 0.18 * (bot - top)
-    c.text(846, 60, "FIG. 1  BALANCED ACCURACY, TWO SPLITS", "Jb", 10.5, "faint", "end", spacing=1.2, cls="fade", style=delay(0.5))
+    c.text(846, 60, "FIG. 1  BALANCED ACCURACY, TWO SPLITS, 3 SEEDS", "Jb", 10.5, "faint", "end", spacing=1.2, cls="fade", style=delay(0.5))
     for x, lab in [(x0, "validation"), (x1, "official test")]:
         c.add(f'<line x1="{x}" y1="{top - 8}" x2="{x}" y2="{bot + 6}" stroke="{t["line"]}" stroke-width="1.5" stroke-dasharray="3 4" class="fade" style="{delay(0.6)}"/>')
         c.text(x, bot + 26, lab, "In", 12.5, "muted", "middle", cls="fade", style=delay(0.7))
@@ -125,7 +125,7 @@ def hero(t):
                  ".pop{transform-box:fill-box;transform-origin:center;animation:pop .45s cubic-bezier(.3,1.6,.5,1) both}"
                  "@keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}"
                  "@media (prefers-reduced-motion: reduce){.draw{stroke-dashoffset:0}}")
-    for key, v0, v1, name, d0 in [("leaky", 0.858, 0.727, "split by image", 1.0), ("honest", 0.790, 0.744, "split by lesion", 1.25)]:
+    for key, v0, v1, name, d0 in [("leaky", 0.853, 0.716, "split by image", 1.0), ("honest", 0.779, 0.731, "split by lesion", 1.25)]:
         col = t[key]
         ya, yb = y(v0), y(v1)
         L = math.hypot(x1 - x0, yb - ya) + 2
@@ -137,8 +137,8 @@ def hero(t):
         c.text(x0 - 14, ya + 13, f"{v0:.3f}", "Jb", 11.5, "muted", "end", cls="fade", style=delay(d0))
         c.text(x1 + 14, yb + 4, f"{v1:.3f}", "Jb", 12, col, cls="fade", style=delay(d0 + 1.25))
     # the drops, along each line
-    c.text((x0 + x1) / 2 + 10, y(0.7925) - 12, "−13.2", "Jb", 12.5, "leaky", "middle", cls="rise", style=delay(2.4))
-    c.text((x0 + x1) / 2 - 6, y(0.767) + 22, "−4.6", "Jb", 12.5, "honest", "middle", cls="rise", style=delay(2.55))
+    c.text((x0 + x1) / 2 + 10, y(0.7845) - 12, "−13.7", "Jb", 12.5, "leaky", "middle", cls="rise", style=delay(2.4))
+    c.text((x0 + x1) / 2 - 6, y(0.755) + 22, "−4.8", "Jb", 12.5, "honest", "middle", cls="rise", style=delay(2.55))
     return c
 
 

@@ -1,8 +1,20 @@
 {
   "updated": "Nov 8, 2026",
   "items": [
-    {"title": "Egyptian Arabic vs English sentiment", "detail": "Does pretraining on tweets help more for dialect?", "status": "running"},
-    {"title": "HAM10000, three seeds per split", "detail": "Then Grad-CAM on the melanomas it missed.", "status": "running"},
-    {"title": "A model served as an API", "detail": "Containerised, tested and monitored.", "status": "next"}
+    {
+      "title": "The skin-lesion model, as a live API",
+      "detail": "ONNX, FastAPI, Docker, monitored. Deploying.",
+      "status": "running"
+    },
+    {
+      "title": "What Arabic sentiment costs to run",
+      "detail": "int8 halves latency, and broke 4 of 6 models.",
+      "status": "done"
+    },
+    {
+      "title": "HAM10000, three seeds per split",
+      "detail": "The leak inflates validation by 13.7 points.",
+      "status": "done"
+    }
   ]
 }
