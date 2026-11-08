@@ -1,0 +1,8 @@
+{
+  "updated": "Nov 8, 2026",
+  "items": [
+    {"title": "Egyptian Arabic vs English sentiment", "detail": "Does pretraining on tweets help more for dialect?", "status": "running"},
+    {"title": "HAM10000, three seeds per split", "detail": "Then Grad-CAM on the melanomas it missed.", "status": "running"},
+    {"title": "A model served as an API", "detail": "Containerised, tested and monitored.", "status": "next"}
+  ]
+}
