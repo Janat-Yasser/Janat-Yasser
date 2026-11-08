@@ -99,14 +99,12 @@ def delay(s):
 
 # ---------------------------------------------------------------- hero
 def hero(t):
-    c = Card(880, 320, t, "Janat Yasser. I build machine-learning systems, then check whether their numbers hold up on "
-                          "data they've never seen. Figure: on HAM10000, a model validated on a leaky image-level split "
+    c = Card(880, 320, t, "Janat Yasser. i code occasionally. Figure: on HAM10000, a model validated on a leaky image-level split "
                           "scored 0.853 on validation and 0.716 on the official test set (mean of three seeds); split by lesion, 0.779 and 0.731.")
     c.frame()
     c.text(44, 60, "LAB NOTEBOOK", "Jb", 11, "faint", spacing=2.5, cls="fade")
     c.text(40, 128, "Janat Yasser", "Fr", 60, "ink", cls="rise", style=delay(0.1))
-    c.text(44, 170, "I build machine-learning systems, then check", "In", 16, "muted", cls="rise", style=delay(0.35))
-    c.text(44, 193, "whether their numbers hold up on data they've never seen.", "In", 16, "muted", cls="rise", style=delay(0.45))
+    c.text(44, 176, "i code occasionally", "In", 17, "muted", cls="rise", style=delay(0.35))
     c.add(f'<line x1="44" y1="226" x2="84" y2="226" stroke="{t["line"]}" stroke-width="2" class="fade" style="{delay(0.6)}"/>')
     for i, line in enumerate(["Fig. 1. HAM10000 skin lesions. With photos of the same mole on both sides",
                               "of the split, validation flattered the model by 13.7 points (3 seeds).",

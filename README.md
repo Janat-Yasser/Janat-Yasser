@@ -1,5 +1,5 @@
 <!-- Copyright (c) 2026 Janat Yasser. All rights reserved. -->
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/hero-dark.svg"><img src="assets/cards/hero-light.svg" alt="Janat Yasser. I code sometimes. Fig. 1: on HAM10000 skin lesions, a model validated on a leaky split scored 0.853 on validation and 0.716 on the official test set (mean of three seeds); split by lesion, 0.779 and 0.731." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/hero-dark.svg"><img src="assets/cards/hero-light.svg" alt="Janat Yasser. i code occasionally. Fig. 1: on HAM10000 skin lesions, a model validated on a leaky split scored 0.853 on validation and 0.716 on the official test set (mean of three seeds); split by lesion, 0.779 and 0.731." width="100%"></picture>
 
 <p>
 <a href="https://github.com/Janat-Yasser/heart_simulator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/cardiosim-dark.svg"><img src="assets/cards/cardiosim-light.svg" alt="CardioSim: a bedside ECG monitor whose CNN catches 91% of ventricular beats, 90% precise, on unseen patients" width="49%"></picture></a>
