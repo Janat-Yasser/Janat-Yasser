@@ -21,9 +21,9 @@
 `Nov 07` &nbsp;**[Roboforge](https://github.com/Janat-Yasser/Roboforge)** &nbsp;Publish a live demo on GitHub Pages<br>
 `Nov 07` &nbsp;**[debatebot](https://github.com/Janat-Yasser/debatebot)** &nbsp;Switch to openai/gpt-oss-120b: Groq retired Llama 3.3 70B<br>
 `Nov 07` &nbsp;**[debatebot](https://github.com/Janat-Yasser/debatebot)** &nbsp;README: CI badge and a reproducible example of one retrieval step<br>
-`Nov 07` &nbsp;**[attendly](https://github.com/Janat-Yasser/attendly)** &nbsp;README: live CI badge and demo link<br>
+`Nov 07` &nbsp;**[hirepath](https://github.com/Janat-Yasser/hirepath)** &nbsp;README: plain rewrite with a worked scoring example and its limits<br>
 `Nov 07` &nbsp;**[rag-faithfulness-detector](https://github.com/Janat-Yasser/rag-faithfulness-detector)** &nbsp;README: live CI badge<br>
-`Nov 07` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;README: live CI badge<br>
+`Nov 07` &nbsp;**[attendly](https://github.com/Janat-Yasser/attendly)** &nbsp;README: live CI badge and demo link<br>
 <!-- LOG:END -->
 
 <sub>The log above is written by a GitHub Action from my latest public commits. Every number on these cards comes from the linked repository, and each card is a hand-drawn SVG that respects “reduce motion”.<br>
