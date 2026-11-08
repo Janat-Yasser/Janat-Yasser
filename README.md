@@ -18,12 +18,12 @@
 ### Lab log
 
 <!-- LOG:START -->
-`Nov 07` &nbsp;**[Roboforge](https://github.com/Janat-Yasser/Roboforge)** &nbsp;Publish a live demo on GitHub Pages<br>
-`Nov 07` &nbsp;**[debatebot](https://github.com/Janat-Yasser/debatebot)** &nbsp;Switch to openai/gpt-oss-120b: Groq retired Llama 3.3 70B<br>
-`Nov 07` &nbsp;**[debatebot](https://github.com/Janat-Yasser/debatebot)** &nbsp;README: CI badge and a reproducible example of one retrieval step<br>
-`Nov 07` &nbsp;**[attendly](https://github.com/Janat-Yasser/attendly)** &nbsp;README: live CI badge and demo link<br>
-`Nov 07` &nbsp;**[rag-faithfulness-detector](https://github.com/Janat-Yasser/rag-faithfulness-detector)** &nbsp;README: live CI badge<br>
-`Nov 07` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;README: live CI badge<br>
+`Nov 08` &nbsp;**[lesion-classifier-service](https://github.com/Janat-Yasser/lesion-classifier-service)** &nbsp;Lint: wrap long lines in the banner script<br>
+`Nov 08` &nbsp;**[tweet-sentiment](https://github.com/Janat-Yasser/tweet-sentiment)** &nbsp;Cost study: smaller models, TAPT, int8 latency, SHAP<br>
+`Nov 08` &nbsp;**[tweet-sentiment](https://github.com/Janat-Yasser/tweet-sentiment)** &nbsp;Banner: drawn as a social feed<br>
+`Nov 08` &nbsp;**[tweet-sentiment](https://github.com/Janat-Yasser/tweet-sentiment)** &nbsp;README: animated banner, plain-language background, distinct layout<br>
+`Nov 08` &nbsp;**[lesion-classifier-service](https://github.com/Janat-Yasser/lesion-classifier-service)** &nbsp;README: animated banner, plain-language background, distinct layout<br>
+`Nov 08` &nbsp;**[ham10000](https://github.com/Janat-Yasser/ham10000)** &nbsp;README: animated banner, plain-language background, distinct layout<br>
 <!-- LOG:END -->
 
 <sub>The log above is written by a GitHub Action from my latest public commits. Every number on these cards comes from the linked repository, and each card is a hand-drawn SVG that respects “reduce motion”.<br>
