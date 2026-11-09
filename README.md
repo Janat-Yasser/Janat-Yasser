@@ -18,12 +18,12 @@
 ### Lab log
 
 <!-- LOG:START -->
-`Nov 08` &nbsp;**[lesion-classifier-service](https://github.com/Janat-Yasser/lesion-classifier-service)** &nbsp;Lint: wrap long lines in the banner script<br>
-`Nov 08` &nbsp;**[tweet-sentiment](https://github.com/Janat-Yasser/tweet-sentiment)** &nbsp;Cost study: smaller models, TAPT, int8 latency, SHAP<br>
-`Nov 08` &nbsp;**[tweet-sentiment](https://github.com/Janat-Yasser/tweet-sentiment)** &nbsp;Banner: drawn as a social feed<br>
-`Nov 08` &nbsp;**[tweet-sentiment](https://github.com/Janat-Yasser/tweet-sentiment)** &nbsp;README: animated banner, plain-language background, distinct layout<br>
-`Nov 08` &nbsp;**[lesion-classifier-service](https://github.com/Janat-Yasser/lesion-classifier-service)** &nbsp;README: animated banner, plain-language background, distinct layout<br>
-`Nov 08` &nbsp;**[ham10000](https://github.com/Janat-Yasser/ham10000)** &nbsp;README: animated banner, plain-language background, distinct layout<br>
+`Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Paper v2 results: detector, rhythm and selection summaries<br>
+`Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Paper v2 results: per-seed final runs<br>
+`Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Add README for second version of the paper<br>
+`Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Paper v2 experiment scripts: blind selection, 5-run CIs, QRS detector and rhythm analyser on real MIT-BIH<br>
+`Nov 09` &nbsp;**[ham10000](https://github.com/Janat-Yasser/ham10000)** &nbsp;Where the leak sits: leaked validation images by class, and their recall<br>
+`Nov 09` &nbsp;**[ham10000](https://github.com/Janat-Yasser/ham10000)** &nbsp;Leak-by-class results<br>
 <!-- LOG:END -->
 
 <sub>The log above is written by a GitHub Action from my latest public commits. Every number on these cards comes from the linked repository, and each card is a hand-drawn SVG that respects “reduce motion”.<br>
