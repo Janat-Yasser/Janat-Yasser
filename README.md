@@ -18,12 +18,12 @@
 ### Lab log
 
 <!-- LOG:START -->
+`Nov 19` &nbsp;**[rag-faithfulness-detector](https://github.com/Janat-Yasser/rag-faithfulness-detector)** &nbsp;Add copyright headers to the HTML pages, tests and package file<br>
+`Nov 19` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Add copyright headers to tests and package files<br>
+`Nov 19` &nbsp;**[debatebot](https://github.com/Janat-Yasser/debatebot)** &nbsp;Update vulnerable dependencies; add copyright headers<br>
+`Nov 19` &nbsp;**[algoviz](https://github.com/Janat-Yasser/algoviz)** &nbsp;Update vulnerable dependencies; add copyright headers<br>
 `Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Paper v2 results: detector, rhythm and selection summaries<br>
 `Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Paper v2 results: per-seed final runs<br>
-`Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Add README for second version of the paper<br>
-`Nov 09` &nbsp;**[heart_simulator](https://github.com/Janat-Yasser/heart_simulator)** &nbsp;Paper v2 experiment scripts: blind selection, 5-run CIs, QRS detector and rhythm analyser on real MIT-BIH<br>
-`Nov 09` &nbsp;**[ham10000](https://github.com/Janat-Yasser/ham10000)** &nbsp;Where the leak sits: leaked validation images by class, and their recall<br>
-`Nov 09` &nbsp;**[ham10000](https://github.com/Janat-Yasser/ham10000)** &nbsp;Leak-by-class results<br>
 <!-- LOG:END -->
 
 <sub>The log above is written by a GitHub Action from my latest public commits. Every number on these cards comes from the linked repository, and each card is a hand-drawn SVG that respects “reduce motion”.<br>
